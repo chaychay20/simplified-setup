@@ -1,0 +1,33 @@
+:root{
+/*Units*/
+--unit-s:14px;
+--unit-m:16px;
+--unit-l:20px;
+--unit-xl:24px;
+
+/*Fonts*/
+--fontfamily-text:'Poppins', sans-serif;
+--fontfamily-headline: 'Abhaya Libre', serif;
+
+--fontstyle-text1:Meduim;
+--fontstyle-text2:MediumItalic;
+--fontstyle-text3:SemiBold;
+--fontstyle-headlines:extrabold;
+
+/*Font-size*/
+--fontsize-h1:64px;
+--fontsize-h2:48px;
+--fontsize-h3:36px;
+--fontsize-h4:24px;
+
+--typo-general-size:12px;
+--typo-large-size:14px;
+--typo-small-size:10px;
+
+/*Colors*/
+--color-purple:#390164;
+--color-green:#CDF5DB;
+--color-black:#000000;
+--color-white:#FFFFFF;
+}
+.menu{font-family:var(--fontfamily-text)}
