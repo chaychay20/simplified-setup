@@ -2,8 +2,9 @@
 /*Units*/
 --unit-s:14px;
 --unit-m:16px;
---unit-l:20px;
---unit-xl:24px;
+--unit-l:24px;
+--unit-xl:43px;
+--unit-xxl:58px;
 
 /*Fonts*/
 --fontfamily-text:'Poppins', sans-serif;
@@ -23,6 +24,8 @@
 --typo-general-size:12px;
 --typo-large-size:14px;
 --typo-small-size:10px;
+--typo-extralarge-size:18px;
+--typo-ultralarge-size:24px;
 
 /*Colors*/
 --color-green-bright:#C6CFA2;
