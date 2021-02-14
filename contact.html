@@ -6,6 +6,14 @@
         <title>Mein erstes HTML-Dokument</title>
         <meta name="viewport" content="width-device-width, initial-scale=1.0, shrink-to-fit-no">
         <link rel="stylesheet" href="styles.css">
+        <style>
+            label{
+                display: block;
+            }
+            <form div {
+                margin-bottom: 1em;
+            }
+        </style>
     </head>
 
     <body>
@@ -26,6 +34,27 @@
 
 <main class="site-content">
     <h2>Contact</h2>
+    <p>You can send me a message with the following form.</p>
+    <form class="contact-form" action="#" method="#"></form>
+
+    <div>
+        <label for="visitor-name">Your name:</label>
+        <input type="text" id="visitor-name" name="visitor-name">
+    </div>
+
+    <div>
+        <label for="visitor-email">Your email:</label>
+        <input type="email" id="visitor-email" name="visitor-email">
+    </div>
+
+    <div>
+        <label for="message">Your message:</label>
+        <textarea id="message" name="message" cols="20" rows="5"></textarea>
+    </div>
+
+    <div>
+        <button class="button" type="submit" value="Message has been sent.">Send Message</button>
+    </div>
     </main>
 
 <footer class="site-footer">
