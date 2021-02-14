@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins&display=swap');
+@import url(styles-tokens.css);
+
 body {
-   background-color:#CDF5DB; 
+   background-color:#C6CFA2; 
+   font-family: var(--fontfamily-text);
 }
 
 h1{
-    background-color:#390164;
+    font-family: var(--fontfamily-headline);
+    background-color:#15423F;
     color: white;
     padding: 8px;
 }
 
 .site-nav-list, 
 .site-footer {
-background-color:#390164;
+background-color:#15423F;
 color: white;
 padding:0,5em;
 }
@@ -22,6 +27,6 @@ padding:0,5em;
 
 .site-nav-list a,
 .site-footer a {
-    color: black;
+    color:white;
     text-decoration: none;
 }
